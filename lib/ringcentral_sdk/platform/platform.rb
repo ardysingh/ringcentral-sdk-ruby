@@ -18,6 +18,7 @@ module RingCentralSdk::Platform
     URL_PREFIX        = '/restapi'
 
     attr_accessor :server_url
+    attr_accessor :client
 
     def initialize(app_key='', app_secret='', server_url=RingCentralSdk::Sdk::RC_SERVER_SANDBOX)
 
